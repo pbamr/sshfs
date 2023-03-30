@@ -87,7 +87,7 @@ similar library that provides a libfuse3 compatible interface for your operating
 system). Finally, you need the Glib_ library with development headers (which should be
 available from your operating system's package manager).
 
-Download pbamr/sshfs.c
+Download pbamr/sshfs/sshfs.c
 
 To build and install, we recommend to use Meson_ (version 0.38 or
 newer) and Ninja_.  After extracting the sshfs tarball, create a
