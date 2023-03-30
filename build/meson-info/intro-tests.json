@@ -1,0 +1,1 @@
+[{"cmd": ["/daten/sik/ORGANISATION.DEV4/entwicklung.local/cu/quell.c/fremd/sshfs/2023.03.28.02.sshfs/sshfs-master/build/test/wrong_command"], "env": {}, "name": "wrong_cmd", "workdir": null, "timeout": 30, "suite": ["sshfs"], "is_parallel": true, "priority": 0, "protocol": "exitcode", "depends": ["9f86d08@@wrong_command@exe"]}]

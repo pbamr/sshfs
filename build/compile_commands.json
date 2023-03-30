@@ -1,0 +1,20 @@
+[
+  {
+    "directory": "/daten/sik/ORGANISATION.DEV4/entwicklung.local/cu/quell.c/fremd/sshfs/2023.03.28.02.sshfs/sshfs-master/build",
+    "command": "cc -Isshfs.p -I. -I.. -I/usr/include/fuse3 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -D_REENTRANT -DHAVE_CONFIG_H -Wall -Wextra -Wno-sign-compare -Wmissing-declarations -Wwrite-strings -Wno-unused-result -pthread -DFUSE_USE_VERSION=31 -MD -MQ sshfs.p/sshfs.c.o -MF sshfs.p/sshfs.c.o.d -o sshfs.p/sshfs.c.o -c ../sshfs.c",
+    "file": "../sshfs.c",
+    "output": "sshfs.p/sshfs.c.o"
+  },
+  {
+    "directory": "/daten/sik/ORGANISATION.DEV4/entwicklung.local/cu/quell.c/fremd/sshfs/2023.03.28.02.sshfs/sshfs-master/build",
+    "command": "cc -Isshfs.p -I. -I.. -I/usr/include/fuse3 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -D_REENTRANT -DHAVE_CONFIG_H -Wall -Wextra -Wno-sign-compare -Wmissing-declarations -Wwrite-strings -Wno-unused-result -pthread -DFUSE_USE_VERSION=31 -MD -MQ sshfs.p/cache.c.o -MF sshfs.p/cache.c.o.d -o sshfs.p/cache.c.o -c ../cache.c",
+    "file": "../cache.c",
+    "output": "sshfs.p/cache.c.o"
+  },
+  {
+    "directory": "/daten/sik/ORGANISATION.DEV4/entwicklung.local/cu/quell.c/fremd/sshfs/2023.03.28.02.sshfs/sshfs-master/build",
+    "command": "cc -Itest/wrong_command.p -Itest -I../test -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -D_REENTRANT -DHAVE_CONFIG_H -Wall -Wextra -Wno-sign-compare -Wmissing-declarations -Wwrite-strings -Wno-unused-result -MD -MQ test/wrong_command.p/wrong_command.c.o -MF test/wrong_command.p/wrong_command.c.o.d -o test/wrong_command.p/wrong_command.c.o -c ../test/wrong_command.c",
+    "file": "../test/wrong_command.c",
+    "output": "test/wrong_command.p/wrong_command.c.o"
+  }
+]
