@@ -57,7 +57,7 @@ I remember::
 About
 -----
 
-This SSHFS/Fork allows you to mount a remote filesystem using SFTP.
+SSHFS allows you to mount a remote filesystem using SFTP.
 
 It is recommended to run SSHFS as regular user (not as root).  For
 this to work the mountpoint must be owned by the user.  If username is
@@ -82,10 +82,12 @@ On BSD and macOS, to unmount the filesystem::
 Installation
 ------------
 
-First, download this  SSHFS/Fork release. You also need libfuse_ 3.1.0 or newer (or a
+First, download libfuse/SSHFS release. You also need libfuse_ 3.1.0 or newer (or a
 similar library that provides a libfuse3 compatible interface for your operating
 system). Finally, you need the Glib_ library with development headers (which should be
 available from your operating system's package manager).
+
+Download pbamr/sshfs.c
 
 To build and install, we recommend to use Meson_ (version 0.38 or
 newer) and Ninja_.  After extracting the sshfs tarball, create a
