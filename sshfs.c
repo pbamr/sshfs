@@ -33,11 +33,14 @@
 
   Copying files and folders works the same way.
 
-  
+  It should be noted that some file managers try to set the original file rights after copying
 
   Example:
   sshfs -o allow_other -o default_permissions -o chmod_file=660 -o chmod_dir=2770 HOST:/ mount_point
-
+  
+  or this
+  
+  sshfs -o allow_other -o default_permissions HOST:/ mount_point
 
  
  I would like to remember ALICIA ALONSO, MAYA PLISETSKAYA, CARLA FRACCI, EVA EVDOKIMOVA, VAKHTANG CHABUKIANI and the
