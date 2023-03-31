@@ -33,10 +33,7 @@
 
   Copying files and folders works the same way.
 
-  IMPORTANT! User<root> does not take over the <chmod rights> when copying.
-
-  Lets see ....... ????
-
+  
 
   Example:
   sshfs -o allow_other -o default_permissions -o chmod_file=660 -o chmod_dir=2770 HOST:/ mount_point
