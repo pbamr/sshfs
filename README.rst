@@ -24,17 +24,15 @@ Working::
 
  when you create a file, the file gets the "chmod_file" rights.
  when you create a folder, the folder gets the "chmod_dir" rights.
+
+ Copying files and folders works the same way.
  
- But you can also ignore this.
+ It should be noted that some file managers try to set the original file rights after copying.
+ 
+ The program "cp" works fine.
+
+
 --------------------
-
-Working::
-
-  Copying files and folders works the same way.
- 
-  IMPORTANT! User<root> does not take over the "chmod rights" when copying.
-  Lets see ....... ????
-------------
 
 Example::
 
